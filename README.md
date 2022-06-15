@@ -1,12 +1,12 @@
-## Number Base Converter
+# Number Base Converter
 
 Basic exercise with ArrayLists, loops, and conversion of integers between bases in Java.
 
-# Timeline
+## Timeline
 
 January 3, 2022: Uploaded.
 
-# Suggestions for Improvement
+##Suggestions for Improvement
 
 Implement functionality for larger numbers in different bases. Currently, input only accepts integers, so maximum possible input is Integer.MAX_VALUE. Program would be unable to read a binary number like 1010111010000101010101111.
 
