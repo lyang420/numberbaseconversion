@@ -1,9 +1,15 @@
-# Number-Base-Converter
-Basic exercise with ArrayLists, loops, and conversion of integers between bases.
+## Number Base Converter
 
-January 3, 2022: Uploaded Version 1.
+Basic exercise with ArrayLists, loops, and conversion of integers between bases in Java.
 
-Edits:
+# Timeline
 
-Need to implement feature to read hexadecimal numbers (currently only accepts integers).
-Since inputted figure is integer, can only reach Integer.MAX_VALUE (e.g. Reading binary number 10111010101010101010 will cause error).
+January 3, 2022: Uploaded.
+
+# Suggestions for Improvement
+
+Implement functionality for larger numbers in different bases. Currently, input only accepts integers, so maximum possible input is Integer.MAX_VALUE. Program would be unable to read a binary number like 1010111010000101010101111.
+
+Implement functionality for hexadecimal numbers. Currently, input only accepts integers, so program would not work for an input like "AF5."
+
+Implement loop to support continuous conversion of inputs without having to run program every time.
