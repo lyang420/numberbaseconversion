@@ -1,25 +1,17 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/* Implement functionality to convert between any two given bases? */
-
 public class NumberBaseConverter {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int integerBefore, base;
 		
-		/* What if the user does not input an integer? */
-		
 		System.out.print("Give me an integer to convert: ");
 		integerBefore = sc.nextInt();
 		
 		System.out.print("What base is this integer in? ");
 		base = sc.nextInt();
-		
-		/* Implement loop so that it keeps asking for values
-		   and performing conversions until the user tells
-		   it to stop. */
 		
 		convert(integerBefore, base);
 		
